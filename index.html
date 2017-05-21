@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="imgUpload">
-    <input type="file" name="fileUpload" id="fileUpload" multiple="true">
+    <input type="file" name="fileUpload" id="fileUpload" multiple="true" onchange="fileUpload(this.files)">
     <div id="prevUpload"></div>
   </div>
   <script src='./upload.js'></script>
